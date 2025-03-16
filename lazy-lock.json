@@ -1,6 +1,10 @@
 {
+  "go.nvim": { "branch": "master", "commit": "da15ca55705c57ca10de1fbc1f0b6d6327c13e55" },
+  "guihua.lua": { "branch": "master", "commit": "d783191eaa75215beae0c80319fcce5e6b3beeda" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
-  "mini.nvim": { "branch": "main", "commit": "b21cd5b1b330844e4c4b93d65e99ecb7c79a63c9" },
+  "mini.nvim": { "branch": "main", "commit": "9d728ef916f8443996e43199fe249d11a3d2ea72" },
+  "nvim-lspconfig": { "branch": "master", "commit": "2574ad38c6ee4f0bef3a1ca305cd5df627a52bb3" },
+  "nvim-treesitter": { "branch": "master", "commit": "da88ea477c67c7f7ebab6d1e662d0cdebfcb57f0" },
   "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" }
 }
