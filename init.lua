@@ -1,4 +1,7 @@
 require("config.lazy")
 
-vim.wo.number = true
-vim.wo.relativenumber = true
+local set = vim.opt
+
+set.number = true
+set.relativenumber = true
+
