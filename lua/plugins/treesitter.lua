@@ -3,23 +3,27 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     config = function()
-      require'nvim-treesitter.configs'.setup {
+      require("nvim-treesitter.configs").setup({
 	ensure_installed = {
-	  "bash",
 	  "go", "gomod", "gosum", "gotmpl", "gowork", "templ",
 	  "python", "jinja", "pymanifest",
-	  "javascript", "jsdoc", 
-	  "typescript", "tsx",
-	  "astro",
-	  "sql",
-	  "html", "css", "scss",
+	  "sql", "proto",
+	  "html", "css", "scss", "javascript", "jsdoc", "typescript", "tsx", "astro",
+	  "bash",
 	  "lua", "luadoc",
-	  "proto",
-	  "cmake", "make", "dockerfile", "dot", "editorconfig",
-	  "csv", "tsv", "toml", "json", "json5", "yaml", "xml",
+	  "cmake", "make",
+	  "dockerfile",
+	  "dot",
+	  "editorconfig",
+	  "csv", "tsv", "json", "json5", "yaml", "xml",
+	  "toml",
 	  "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore",
-	  "desktop", "gpg", "jq", "ssh_config",
-	  "markdown", "markdown_inline", "todotxt",
+	  "ssh_config",
+	  "desktop",
+	  "gpg",
+	  "jq",
+	  "markdown", "markdown_inline",
+	  "todotxt",
 	  "nginx",
 	  "vim", "vimdoc",
 	  "http",
@@ -39,7 +43,7 @@ return {
 	  end,
 	  additional_vim_regex_highlighting = false,
 	},
-      }
+      })
     end
   }
 }
