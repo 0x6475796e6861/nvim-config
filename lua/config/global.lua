@@ -11,3 +11,5 @@ set.expandtab 	= true
 set.shiftround  = true
 set.smartindent = true
 set.cindent     = true
+
+vim.cmd("colorscheme default")
