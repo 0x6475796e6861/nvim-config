@@ -1,18 +1,16 @@
-local set = vim.opt
+vim.g.mapleader      = "<space>"
+vim.g.maplocalleader = "\\"
+vim.g.colors_name    = "default"
 
-set.mapleader      = "<space>"
-set.maplocalleader = "\\"
+vim.opt.clipboard = "unnamedplus"
 
-set.number = true
-set.relativenumber = true
-set.clipboard = "unnamedplus"
+vim.opt.number         = true
+vim.opt.relativenumber = true
 
-set.tabstop 	= 4
-set.softtabstop = 4
-set.shiftwidth 	= 4
-set.expandtab 	= true
-set.shiftround  = true
-set.smartindent = true
-set.cindent     = true
-
-vim.cmd("colorscheme default")
+vim.opt.tabstop     = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth  = 4
+vim.opt.expandtab   = true
+vim.opt.shiftround  = true
+vim.opt.smartindent = true
+vim.opt.cindent     = true
