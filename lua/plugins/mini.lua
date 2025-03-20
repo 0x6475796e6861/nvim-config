@@ -1,8 +1,4 @@
-return {
-  {
-    "echasnovski/mini.nvim",
-    config = function()
-      require("mini.statusline").setup({ use_icons = true })
-    end
-  }
-}
+return {{
+  "echasnovski/mini.nvim", tag = "v0.15.0",
+  enabled = false
+}}
