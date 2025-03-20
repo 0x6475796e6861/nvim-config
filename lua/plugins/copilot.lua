@@ -1,10 +1,6 @@
-return {
-  {
-    "zbirenbaum/copilot.lua",
+return {{
+    "zbirenbaum/copilot.lua", branch = "master",
     cmd = "Copilot",
     event = "InsertEnter",
-    config = function()
-      require("copilot").setup({})
-    end,
-  }
-}
+    opts = {},
+}}
