@@ -1,5 +1,8 @@
 local set = vim.opt
 
+set.mapleader      = "<space>"
+set.maplocalleader = "\\"
+
 set.number = true
 set.relativenumber = true
 set.clipboard = "unnamedplus"
