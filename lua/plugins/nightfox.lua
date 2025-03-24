@@ -4,7 +4,6 @@ return {{
   opts = {
     options = {
       transparent = true,
-      dim_inactive = true,
     }
   }
 }}
