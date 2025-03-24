@@ -1,6 +1,5 @@
 vim.g.mapleader      = "<space>"
 vim.g.maplocalleader = "\\"
-vim.g.colors_name    = "default"
 
 vim.opt.clipboard = "unnamedplus"
 
