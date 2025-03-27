@@ -31,7 +31,10 @@ return {{
   opts = {
     win_options = { winbar = "%!v:lua.get_oil_winbar()" },
     keymaps = {
-      ["gd"] = { desc = "Toggle file detail view", callback = toggle_detail_view }
+      ["gd"] = { desc = "Toggle file detail view", callback = toggle_detail_view },
+      ["<C-p>"] = { "actions.preview", opts = { split = "botright" } },
+      ["<C-s>"] = { "actions.select", opts = { vertical = true, split = "botright" } },
+      ["<C-h>"] = { "actions.select", opts = { horizontal = true, split = "botright" } },
     },
     view_options = {
       show_hidden = true
