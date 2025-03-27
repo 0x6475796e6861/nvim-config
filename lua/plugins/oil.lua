@@ -33,5 +33,8 @@ return {{
     keymaps = {
       ["gd"] = { desc = "Toggle file detail view", callback = toggle_detail_view }
     },
+    view_options = {
+      show_hidden = true
+    }
   },
 }}
