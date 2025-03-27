@@ -12,7 +12,7 @@ function _G.get_oil_winbar()
 end
 
 local show_detail_view = false
-function toggle_detail_view()
+local function toggle_detail_view()
   show_detail_view = not show_detail_view
   if show_detail_view then
     plugin.set_columns({ "icon", "permissions", "size", "mtime" })
