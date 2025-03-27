@@ -3,7 +3,8 @@ return {{
   lazy = false,
   opts = {
     options = {
-      transparent = true,
+      transparent  = true,
+      dim_inactive = true,
     }
   }
 }}
